@@ -13,7 +13,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/valentinarnaut2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="valentinarnaut2" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/valentin arnautski" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="valentin arnautski" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/valentin-arnautski-a022181b9/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="valentin-arnautski-a022181b9" height="30" width="40" /></a>
 <a href="https://fb.com/valentin bojidarov" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="valentin bojidarov" height="30" width="40" /></a>
 </p>
 
