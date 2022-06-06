@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Valentin Arnautski</h1>
 <h3 align="center">A passionate junior front-end developer from Sofia, Bulgaria. Successfully graduate South West College and Ulster University (Belfast, Northern Ireland) in Computing Science. </h3>
 
-<h2 align="left"> Currently riding the wave of Crypto and Web3. My academic interests have always been in the fields of programming and recently in emerging technologies such as Blockchain, AI, and IoT. I am currently doing SoftUni's JavaScript and Digital Marketing courses.
-</h2>
+<h4 align="left"> Currently riding the wave of Crypto and Web3. My academic interests have always been in the fields of programming and recently in emerging technologies such as Blockchain, AI, and IoT. I am currently doing SoftUni's JavaScript and Digital Marketing courses.
+</h4>
 
 - 🔭 I’m currently working on **different projects using variety of computing languages, frameworks and technologies.**
 
