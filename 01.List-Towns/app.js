@@ -7,9 +7,9 @@ const root = document.getElementById('root')
 function onSubmit(e){
     e.preventDefault()
 
-    const formData = new FormData(form);
-    const {towns} = Object.fromEntries(formData);
-    const townsArray = towns.split(', ')
+    const formData = new FormData(form);                //extracts the form data using the FormData constructor
+    const {towns} = Object.fromEntries(formData);       //extracts the towns value from the form data using destructuring
+    const townsArray = towns.split(', ')                //split into an array of strings and pass to the renderTownList function.
     renderTownList(townsArray)
 }
 
