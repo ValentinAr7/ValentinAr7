@@ -1,15 +1,20 @@
 import { html, render } from './node_modules/lit-html/lit-html.js';
 import { cats } from './catSeeder.js'
 
+//get the <section> with all cats
 const root = document.getElementById('allCats')
 
+//for each cat create a li and attach it the ul
 const catTemplate = html`
     <ul>
         ${cats.map(cat => createCatCard(cat))}
     </ul>`
 
+//rendering
 render(catTemplate, root)
 
+
+//create li
 function createCatCard(cat) {
     return html`
                     <li>
