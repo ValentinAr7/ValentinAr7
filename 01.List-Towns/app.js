@@ -5,4 +5,8 @@ form.addEventListener('submit', onSubmit);
 
 function onSubmit(e){
     e.preventDefault()
+
+    const formData = new FormData(form);
+    const {towns} = Object.fromEntries(formData);
+    const townsArray = towns.split(', ')
 }
