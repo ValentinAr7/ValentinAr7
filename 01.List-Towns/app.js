@@ -2,6 +2,7 @@ import { html, render } from './node_modules/lit-html/lit-html.js'
 
 const form = document.querySelector('form');
 form.addEventListener('submit', onSubmit);
+const root = document.getElementById('root')
 
 function onSubmit(e){
     e.preventDefault()
@@ -14,9 +15,8 @@ function onSubmit(e){
 
 function renderTownList(data){
     const result = createTownList(data)
+    render(result, root )
 }
-
- 
 
     function createTownList(data){
         const ul = html`
