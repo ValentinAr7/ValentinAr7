@@ -28,5 +28,11 @@ const catTemplate = html`
         const contentContainer = e.target.parentElement.querySelector('div');
         const currentState = contentContainer.style.display;
 
-        if(currentState === 'none')
+        if(currentState === 'none'){
+            contentContainer.style.display = 'block';
+            e.target.textContent = 'Hide status code'
+         } else {
+            contentContainer.style.display = 'none';
+            e.target.textContent = 'Hide status code'
+         }
     }
