@@ -23,5 +23,7 @@ function renderTownList(data){
         <ul>
             ${data.map(el => html`<li>${el}</li>`)}
         </ul>`
+
+        return ul
     }
 
