@@ -9,4 +9,11 @@ function onSubmit(e){
     const formData = new FormData(form);
     const {towns} = Object.fromEntries(formData);
     const townsArray = towns.split(', ')
+
+    function createTownList(data){
+        const ul = html`
+        <ul>
+            ${data.map(el => html`<li>${el}</li>`)}
+        </ul>`
+    }
 }
