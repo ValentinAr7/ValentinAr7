@@ -7,10 +7,10 @@ document.querySelector('button').addEventListener('click', search)
 
 update()
 
-function searchTemplate(townsName){
+function searchTemplate(townsName, match){
    const ul = html`
    <ul>
-   ${townsName.map(totownsNamewn => createLiTemplate(townsName))}
+   ${townsName.map(totownsNamewn => createLiTemplate(townsName, match))}
    </ul>`
 
 
@@ -19,17 +19,16 @@ function searchTemplate(townsName){
 
 function createLiTemplate(town){
    return html`
-   <li>${town}</li>`
+   <li class="${town.includes(match) ? "active" : "" }">${town}</li>`
 }
 
-function update(){
-   const ul = searchTemplate(towns)
+function update(text){
+   const ul = searchTemplate(text)
    render(ul, townsRoot)
 }
 
 function search(e) {
    const textNode = document.getElementById('searchText')
    const text = textNode.value.toLowerCase()
-
-
+   update(text)
 }
