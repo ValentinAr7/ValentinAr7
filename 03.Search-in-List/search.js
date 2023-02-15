@@ -4,16 +4,23 @@ import {towns} from './towns.js'
 const townsRoot =document.getElementById('towns')
 const resultRoot = document.getElementById('result')
 
+update()
+
 function searchTemplate(townsName){
    const ul = html`
    <ul>
-   ${towns.map(town => createLiTemplate(town))}
+   ${townsName.map(totownsNamewn => createLiTemplate(townsName))}
    </ul>`
 }
 
 function createLiTemplate(town){
    return html`
    <li>${town}</li>`
+}
+
+function update(){
+   const ul = searchTemplate(towns)
+   render(ul, townsRoot)
 }
 
 function search() {
