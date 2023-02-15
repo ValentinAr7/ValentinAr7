@@ -3,6 +3,7 @@ import {towns} from './towns.js'
 
 const townsRoot =document.getElementById('towns')
 const resultRoot = document.getElementById('result')
+document.querySelector('button').addEventListener('click', search)
 
 update()
 
@@ -26,6 +27,6 @@ function update(){
    render(ul, townsRoot)
 }
 
-function search() {
+function search(e) {
  
 }
