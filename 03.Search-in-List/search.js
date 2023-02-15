@@ -19,7 +19,7 @@ function searchTemplate(townsName, match){
 
 function createLiTemplate(town, match){
    return html`
-   <li class="${town.toLowerCase().includes(match) ? "active" : "" }">${town}</li>`
+   <li class="${(match && town.toLowerCase().includes(match)) ? "active" : "" }">${town}</li>`
 }
 
 function update(text){
@@ -31,4 +31,13 @@ function search(e) {
    const textNode = document.getElementById('searchText')
    const text = textNode.value.toLowerCase()
    update(text)
+   updateCount()
+   textNode.value = ''
+}
+
+function updateCount(){
+   const count = document.querySelectorAll(".active").length
+   const countElement = count ? html`<p>${count} matches found</p>` : ""
+
+   render(countElement, resultRoot)
 }
