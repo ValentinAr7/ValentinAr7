@@ -10,16 +10,16 @@ update()
 function searchTemplate(townsName, match){
    const ul = html`
    <ul>
-   ${townsName.map(totownsNamewn => createLiTemplate(townsName, match))}
+   ${townsName.map(townsName => createLiTemplate(townsName, match))}
    </ul>`
 
 
    return ul
 }
 
-function createLiTemplate(town){
+function createLiTemplate(town, match){
    return html`
-   <li class="${town.includes(match) ? "active" : "" }">${town}</li>`
+   <li class="${town.toLowerCase().includes(match) ? "active" : "" }">${town}</li>`
 }
 
 function update(text){
