@@ -28,5 +28,8 @@ function update(){
 }
 
 function search(e) {
- 
+   const textNode = document.getElementById('searchText')
+   const text = textNode.value.toLowerCase()
+
+
 }
