@@ -11,6 +11,9 @@ function searchTemplate(townsName){
    <ul>
    ${townsName.map(totownsNamewn => createLiTemplate(townsName))}
    </ul>`
+
+
+   return ul
 }
 
 function createLiTemplate(town){
