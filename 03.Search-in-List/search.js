@@ -23,7 +23,7 @@ function createLiTemplate(town, match){
 }
 
 function update(text){
-   const ul = searchTemplate(text)
+   const ul = searchTemplate(towns, text)
    render(ul, townsRoot)
 }
 
