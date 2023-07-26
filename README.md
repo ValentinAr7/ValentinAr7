@@ -1,12 +1,12 @@
 <h1 align="center">Hi 👋, I'm Valentin Arnautski</h1>
-<h3 align="center">A passionate junior front-end developer from Sofia, Bulgaria. Successfully graduate South West College and Ulster University (Belfast, Northern Ireland) in Computing Science. </h3>
+<h3 align="center">  Hey there! I'm a budding software and web developer with a knack for turning big ideas into reality. I'm passionate about creating efficient solutions that make a real difference.</h3> 
 
-<h4 align="left"> Currently riding the wave of Crypto and Web3. My academic interests have always been in the fields of programming and recently in emerging technologies such as Blockchain, AI, and IoT. I am currently doing SoftUni's JavaScript and Digital Marketing courses.
+<h4 align="left"> I have successfully graduate South West College and Ulster University (Belfast, Northern Ireland) in Computing Science. With a little over 1 year of industry experiance I've had my hands on different things but mainly developing user-friendly web applications and crafting real-time mobile apps with React Native.
 </h4>
 
-- 🔭 I’m currently working on **different projects using variety of computing languages, frameworks and technologies.**
+- 🔭 I’m currently working on **different projects using variety of programing languages, frameworks and technologies.**
 
-- 🌱 I’m currently learning **front-end web development - JS, HTML and CSS. I also further develop my skills in vb.net, python and java.**
+- 🌱 I’m further developing my skills in React/React native, JS, and CSS.
 
 - 📫 How to reach me **valio990210@gmail.com**
 
